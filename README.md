@@ -66,7 +66,8 @@ Read webapp/README.md for instructions on how to run the solution and how to use
 ## Marking
 
 For candidate:
-- total time taken:   // please fill this in
+- total time taken: 14h
+- demo page: http://159.65.115.111/appointments
 
 - For reviewer 
   - number of backend unit tests passing

@@ -1,0 +1,11 @@
+mutation addDoctor($input: DoctorInput!) {
+  doctor(doctor: $input) {
+    id
+    name
+    availability {
+      dayOfWeek
+      startTimeUtc
+      endTimeUtc
+    }
+  }
+}

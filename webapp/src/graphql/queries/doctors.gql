@@ -1,0 +1,14 @@
+query doctors {
+  doctors {
+    id
+    name
+  }
+}
+
+query slots($from: DateTime!, $to: DateTime!) {
+  slots(from: $from, to: $to) {
+    doctorId,
+    start,
+    end
+  }
+}

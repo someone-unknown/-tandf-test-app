@@ -1,0 +1,13 @@
+query appointments {
+  appointments {
+    id
+    startTime
+    durationMinutes
+    patientName
+    description
+    doctor {
+      id
+      name
+    }
+  }
+}
